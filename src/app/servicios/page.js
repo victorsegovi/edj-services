@@ -26,11 +26,11 @@ export default function Services() {
       {
         id: 15,
         title: "Catering Industrial y Soporte Alimentario en Campo",
-        text: `* Catering industrial y alimentación para personal en obra y campo
-        * Servicios de comedor y campamentos
-        * Suministro y distribución de alimentos y bebidas
-        * Logística y soporte alimentario para operaciones remotas
-        * Gestión integral de alimentación para proyectos industriales y energéticos`
+        text: `Catering industrial y alimentación para personal en obra y campo
+        Servicios de comedor y campamentos
+        Suministro y distribución de alimentos y bebidas
+        Logística y soporte alimentario para operaciones remotas
+        Gestión integral de alimentación para proyectos industriales y energéticos`
       },
       {
         id: 16,
