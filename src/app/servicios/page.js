@@ -7,61 +7,7 @@ import Footer from '../components/Footer';
 
 export default function Services() {
   const cards = [
-    { 
-      id: 1, 
-      title: "Accesorios (Fittings)", 
-      text: "Suministro de accesorios para tuberías industriales utilizados en sistemas de proceso, transporte de fluidos y construcción de plantas en la industria petrolera e industrial." 
-    },
-    { 
-      id: 2, 
-      title: "Válvulas Industriales", 
-      text: "Distribución de válvulas para control, aislamiento y alivio de fluidos en sistemas de proceso de la industria petrolera, petroquímica y de gas natural." 
-    },
-    { 
-      id: 3, 
-      title: "Equipos Eléctricos", 
-      text: "Suministro de equipos eléctricos industriales para baja, media y alta tensión, certificados para operar en ambientes clasificados y de alta exigencia en la industria petrolera." 
-    },
-    { 
-      id: 4, 
-      title: "Recubrimientos de Pinturas", 
-      text: "Sistemas de recubrimiento para protección de estructuras, tuberías y equipos en ambientes industriales de alta exigencia, incluyendo aplicaciones offshore y onshore" 
-    },
-    { 
-      id: 5, 
-      title: "Izaje y Riggings", 
-      text: "Suministro de equipos y accesorios de izaje certificados para operaciones industriales de alta exigencia en plantas, plataformas y campos petroleros." 
-    },
-    { 
-      id: 6, 
-      title: "Químicos Industriales", 
-      text: "Suministro de químicos especializados para tratamiento de fluidos, control de corrosión y optimización de procesos en la industria petrolera e industrial." 
-    },
-    {
-      id: 7,
-      title: "Soluciones Habitacionales",
-      text: "Módulos habitacionales y de trabajo diseñados para operaciones industriales remotas, con estándares de confort, seguridad y resistencia para entornos exigentes."
-    },
-    {
-      id: 8,
-      title: "Rejillas (Grating)",
-      text: "Suministro de rejillas industriales en fibra de vidrio (FRP) y acero para plataformas, pasarelas y estructuras en ambientes industriales y offshore."
-    },
-    {
-      id: 9,
-      title: "Ánodos",
-      text: "Tecnología avanzada sin necesidad de soldar de protección catódica mediante ánodos de sacrificio para estructuras metálicas sumergidas y enterradas en la industria petrolera y offshore, con alta eficiencia en ambientes de alta corrosión y servicio severo."
-    },
-    {
-        id: 10,
-        title: "Motores Eléctricos",
-        text: "Suministro de motores eléctricos industriales de baja, media y alta tensión para aplicaciones de alta exigencia en la industria petrolera, petroquímica e industrial."
-      },
-      {
-        id: 11,
-        title: "Refractarios",
-        text: "Suministro de materiales refractarios de tecnología avanzada para la industria energética y petrolera, diseñados para resistir temperaturas extremas, combustión y ambientes altamente abrasivos y corrosivos."
-      },
+
       {
         id: 12,
         title: "Equipos Rotativos",
@@ -77,6 +23,20 @@ export default function Services() {
         title: "Andamiaje Industrial",
         text: "Diseño, montaje y desmontaje de systemas de andiamaje; andiamaje modular, instalación de plataformas; escaleras; pasarelas y handrails, inspección y tagging; aislamiento térmico, coordinación con soldadores, pipefilters, insuladores y refractory crews."
       },
+      {
+        id: 15,
+        title: "Catering Industrial y Soporte Alimentario en Campo",
+        text: `* Catering industrial y alimentación para personal en obra y campo
+        * Servicios de comedor y campamentos
+        * Suministro y distribución de alimentos y bebidas
+        * Logística y soporte alimentario para operaciones remotas
+        * Gestión integral de alimentación para proyectos industriales y energéticos`
+      },
+      {
+        id: 16,
+        title: "Área de Procura",
+        text: "Gestión completa del ciclo de compras: desde fabricantes internacionales hasta entrega en sitio (Just in Time). Suministro de materiales de construcción y repuestos industriales para la industria petrolera.Gestión logística de equipos especializados según requerimientos del cliente. Importación y nacionalización de bienes críticos.",
+      }
   ];
 
   const [limiteVisible, setLimiteVisible] = useState(6);
