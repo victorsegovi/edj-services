@@ -39,9 +39,6 @@ export default function Services() {
       }
   ];
 
-
-  const tarjetasVisibles = cards.slice(0, limiteVisible);
-
   return (
     <>
     <Header/>
@@ -51,7 +48,7 @@ export default function Services() {
 
         {/* Grilla Responsiva */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {tarjetasVisibles.map((item) => (
+          {cards.map((item) => (
             <div key={item.id} className="animate-fade-in">
               {/* PASAMOS AMBOS PARÁMETROS DE FORMA DINÁMICA */}
               <InteractiveCard title={item.title} text={item.text} />
