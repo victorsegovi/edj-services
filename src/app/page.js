@@ -10,7 +10,7 @@ export default function Home() {
     {
       id: 1,
       title: "Alquiler de Maquinaria",
-      text: "Mantenimiento preventivo y correctivo de sistemas de servicios públicos (drenajes, canalizaciones). Movimiento de tierras, excavaciones de gran escala y conformación de taludes. Acondicionamiento de vías agrícolas y pavimentación de estacionamientos. Obras civiles en instalaciones de superficie petroleras.",
+      text: "Excavadoras / Jumbos. Retroexcavadoras. Camiones Volteo. Personal operario altamente calificado incluido.",
     },
     {
       id: 2,
@@ -20,15 +20,15 @@ export default function Home() {
     {
       id: 3,
       title: "Construcción y Obras Civiles",
-      text: "Excavadoras / Jumbos. Retroexcavadoras. Camiones Volteo. Personal operario altamente calificado incluido.",
+      text: "Mantenimiento preventivo y correctivo de sistemas de servicios públicos (drenajes, canalizaciones). Movimiento de tierras, excavaciones de gran escala y conformación de taludes. Acondicionamiento de vías agrícolas y pavimentación de estacionamientos. Obras civiles en instalaciones de superficie petroleras.",
     },
   ];
 
   const brandsCards = [
     {
       id: 1,
-      title: "DEFFI Offshore Composites",
-      text: "Es un proveedor especializado en soluciones de protección structural y catódica para la industria offshore y petrolera, con amplia experiencia en ambientes de alta corrosión y servicio severo.",
+      title: "DEFI Offshore Composites",
+      text: "Es un proveedor especializado en soluciones de protección estructural y catódica para la industria offshore y petrolera, con amplia experiencia en ambientes de alta corrosión y servicio severo.",
       bottomImageUrl: "/brand-2.png",
     },
     {
@@ -46,7 +46,7 @@ export default function Home() {
     {
       id: 4,
       title: "Scaffold Monkey Field Services",
-      text: "Empresa familiar especializada en el diseño montaje, modificación y desmontaje de sistemas de andamiaje industrial para la industria energética, petrolera y de construcción. Su rol es crítico para garantizar acceso seguro a zonas de trabajo en altura o de difícil acceso en proyectos EPC, paradas de planta y mantenimiento mayor.",
+      text: "Empresa familiar especializada en el diseño, montaje, modificación y desmontaje de sistemas de andamiaje industrial para la industria energética, petrolera y de construcción. Su rol es crítico para garantizar acceso seguro a zonas de trabajo en altura o de difícil acceso en proyectos EPC, paradas de planta y mantenimiento mayor.",
       bottomImageUrl: "/brand-4.png",
     },
     {
@@ -114,7 +114,7 @@ export default function Home() {
 
         <div className="w-full md:w-1/2 flex flex-col gap-6 text-left z-10">
           <p className="text-base sm:text-lg leading-relaxed font-normal">
-            EDJ&SERVICES, C.A. Es una empresa orientada a la gestión integral de
+            EDJ&SERVICES, C.A. es una empresa orientada a la gestión integral de
             procura y servicios especializados, con registro vigente y solvencia
             técnica para participar en procesos de contratación. Contamos con
             capacidad para ejecutar proyectos de construcción, mantenimiento de

@@ -57,7 +57,7 @@ export default function InteractiveCard({ title, text }) {
           
           {/* RENDERIZADO DEL TEXTO DINÁMICO */}
           <div className="text-[#455067] text-sm leading-relaxed p-2 text-left space-y-3 whitespace-pre-line">
-            <p className="font-semibold text-[#08163B]">Descripción del componente:</p>
+            <p className="font-semibold text-[#08163B]">Descripción del servicio</p>
             <p>
               {text || "Información técnica detallada en desarrollo para este componente específico."}
             </p>

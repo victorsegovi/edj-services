@@ -39,7 +39,7 @@ export default function Services() {
     },
     {
       id: 7,
-      title: "Soluiciones Habitacionales",
+      title: "Soluciones Habitacionales",
       text: "Módulos habitacionales y de trabajo diseñados para operaciones industriales remotas, con estándares de confort, seguridad y resistencia para entornos exigentes."
     },
     {
