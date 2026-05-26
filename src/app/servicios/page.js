@@ -39,10 +39,6 @@ export default function Services() {
       }
   ];
 
-  const [limiteVisible, setLimiteVisible] = useState(6);
-
-  const mostrarMas = () => setLimiteVisible(cards.length);
-  const mostrarMenos = () => setLimiteVisible(6);
 
   const tarjetasVisibles = cards.slice(0, limiteVisible);
 
@@ -61,31 +57,6 @@ export default function Services() {
               <InteractiveCard title={item.title} text={item.text} />
             </div>
           ))}
-        </div>
-
-        {/* Botón de Control */}
-        <div className="mt-16 flex justify-center">
-          {limiteVisible < cards.length ? (
-            <button 
-              onClick={mostrarMas}
-              className="bg-[#08163B] text-white font-semibold px-12 py-3.5 hover:bg-[#122557] transition-all flex items-center gap-2 hover:scale-105"
-            >
-              <span>Ver Todos los Servicios ({cards.length})</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="m6 9 6 6 6-6"/>
-              </svg>
-            </button>
-          ) : (
-            <button 
-              onClick={mostrarMenos}
-              className="bg-white text-[#08163B] border border-gray-200 font-semibold px-12 py-3.5 hover:bg-gray-50 transition-all rounded-sm shadow-sm flex items-center gap-2 hover:scale-105"
-            >
-              <span>Mostrar Menos</span>
-              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5">
-                <path d="m18 15-6-6-6 6"/>
-              </svg>
-            </button>
-          )}
         </div>
 
       </div>
