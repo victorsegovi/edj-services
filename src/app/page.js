@@ -90,14 +90,54 @@ export default function Home() {
   return (
     <>
       <Header />
-      
-      <Hero 
-        title={"EDJ & SERVICES"} 
-        text={"Conectamos mercados globales con las necesidades operativas locales de la industria energética venezolana."}
+
+      <Hero
+        title={"EDJ & SERVICES"}
+        text={
+          "Conectamos mercados globales con las necesidades operativas locales de la industria energética venezolana."
+        }
       />
-      
-      <Slideshow cards={servicesCards} title={"SERVICIOS"} isServices={true} />
-      
+
+      <div className="flex flex-col md:flex-row min-h-screen md:h-screen">
+      <div className="w-full md:w-1/2 flex items-center justify-center p-8 sm:p-12 md:p-16 bg-white text-[#08163B] text-center md:text-left">
+          <div className="flex flex-col gap-6">
+            <h2 className="font-bold text-4xl sm:text-5xl mb-4 tracking-wide uppercase">
+              Procura
+            </h2>
+            <p className="italic text-base sm:text-lg leading-relaxed text-[#455067]">
+              Gestión completa del ciclo de compras: desde fabricantes
+              internacionales hasta entrega en sitio (Just in Time). Suministro
+              de materiales de construcción y repuestos industriales para la
+              industria petrolera. Gestión logística de equipos especializados
+              según requerimientos del cliente. Importación y nacionalización de
+              bienes críticos.
+            </p>
+            <Link
+              href={"/procura"}
+              className="bg-[#08163b] text-white px-8 py-4 w-[280px] text-center font-bold hover:scale-105 cursor-pointer transition-all self-center"
+            >
+              Ver Más Sobre Procura
+            </Link>
+          </div>
+        </div>
+        <div className="w-full md:w-1/2 flex items-center justify-center p-8 sm:p-12 md:p-16 text-white text-center bg-center bg-no-repeat bg-cover md:text-left" style={{backgroundImage:"url(/stock-image-1.jpg)"}}>
+          <div className="flex flex-col gap-6">
+            <h2 className="font-bold text-4xl sm:text-5xl mb-4 tracking-wide uppercase">
+              Servicios
+            </h2>
+            <p className="italic text-base sm:text-lg leading-relaxed">
+            Desde la gestión de compra hasta la entrega en sitio; cubrimos cada eslabón de la cadena operativa. Integramos soluciones técnicas especializadas en equipos electromecánicos e instrumentación con servicios críticos de soporte, garantizando la continuidad, seguridad y bienestar necesarios para optimizar el rendimiento de sus proyectos en campo.
+            </p>
+            <Link
+              href={"/servicios"}
+              className="text-[#08163b] bg-white px-8 py-4 w-[280px] text-center font-bold hover:scale-105 cursor-pointer transition-all self-center"
+            >
+              Ver Más Sobre Servicios
+            </Link>
+          </div>
+        </div>
+      </div>
+
       {/* SECCIÓN RESPONSIVA: ¿QUIÉNES SOMOS? */}
       <div
         className="w-full min-h-screen bg-cover bg-center bg-no-repeat text-white flex flex-col md:flex-row justify-center p-8 sm:p-12 md:p-20 items-center gap-12 relative"
@@ -108,7 +148,8 @@ export default function Home() {
 
         <div className="w-full md:w-1/2 text-left z-10">
           <h2 className="font-bold text-4xl sm:text-5xl md:text-6xl text-white tracking-wide uppercase leading-tight">
-            ¿QUIÉNES<br className="hidden md:inline" /> SOMOS?
+            ¿QUIÉNES
+            <br className="hidden md:inline" /> SOMOS?
           </h2>
         </div>
 
@@ -121,8 +162,8 @@ export default function Home() {
             infraestructura y suministro de bienes críticos para la industria
             petrolera e industrial de Venezuela.
           </p>
-          <Link 
-            href="/sobre-nosotros" 
+          <Link
+            href="/sobre-nosotros"
             className="bg-white font-bold text-[#08163B] py-4 px-8 w-full sm:w-[240px] text-center hover:bg-gray-100 hover:scale-105 transition-all"
           >
             Sobre Nosotros
@@ -131,9 +172,9 @@ export default function Home() {
       </div>
 
       <Slideshow cards={brandsCards} title={"MARCAS QUE REPRESENTAMOS"} />
-      
+
       <ContactSection />
-      
+
       <Footer />
     </>
   );

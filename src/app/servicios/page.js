@@ -1,5 +1,4 @@
 "use client"
-import React, { useState } from 'react';
 import InteractiveCard from "../components/ServicesCard";
 import Hero from '../components/HeroSection';
 import Header from '../components/Header';
