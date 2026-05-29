@@ -8,7 +8,7 @@ export async function POST(req) {
 
     const data = await resend.emails.send({
       from: 'EDJ & Services <info@edjgroup.net>',
-      to: ['victorst.tellex@gmail.com'],
+      to: ['hello@bluumsocial.com'],
       subject: `Nuevo mensaje de ${nombre}`,
       text: mensaje,
       html: `<p><strong>Nombre:</strong> ${nombre}</p>
