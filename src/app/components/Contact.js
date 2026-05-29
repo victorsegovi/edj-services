@@ -2,22 +2,41 @@
 import React, { useState } from 'react';
 
 export default function ContactSection() {
+  const [status, setStatus] = useState('');
   const [formData, setFormData] = useState({
     nombre: '',
     email: '',
     mensaje: ''
   });
 
+  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Aquí puedes manejar la lógica de envío de datos o conectar con tu API route
-    console.log("Datos del formulario enviados:", formData);
-  };
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setStatus('Enviando...');
+
+  try {
+    const response = await fetch('/api/send', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData),
+    });
+
+    if (response.ok) {
+      setStatus('¡Mensaje enviado con éxito!');
+      setFormData({ nombre: '', email: '', mensaje: '' });
+    } else {
+      setStatus('Error al enviar el mensaje.');
+    }
+  } catch (error) {
+    setStatus('Error al conectar con el servidor.');
+  }
+};
 
   return (
     <section className="w-full flex flex-col md:flex-row min-h-[600px] bg-white select-none">
