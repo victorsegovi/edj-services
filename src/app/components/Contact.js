@@ -67,7 +67,7 @@ export default function ContactSection() {
                 </svg>
               </div>
               <a href="mailto:info@edjgroup.net" className="hover:underline break-all transition-all">
-                info@edjgruop.net
+                info@edjgroup.net
               </a>
             </div>
 
