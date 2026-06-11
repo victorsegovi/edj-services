@@ -4,6 +4,7 @@ import Slideshow from "./components/SlideShow";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ContactSection from "./components/Contact";
+import OfficeLocations from "./components/OfficeLocations";
 
 export default function Home() {
   const servicesCards = [
@@ -172,6 +173,8 @@ export default function Home() {
       </div>
 
       <Slideshow cards={brandsCards} title={"MARCAS QUE REPRESENTAMOS"} />
+
+      <OfficeLocations />
 
       <ContactSection />
 
