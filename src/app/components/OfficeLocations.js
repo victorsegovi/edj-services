@@ -12,6 +12,16 @@ const locations = [
     address: "Edificio General de Seguros Av 4 (Bella Vista) con calle 67 (Cecilio Acosta) Piso 4, oficina 47, Parroquia Olegario Villalobos,Maracaibo Edo Zulia Venezuela",
     type: "Sede Regional Maracaibo"
   },
+  {
+    city: "Barcelona",
+    address: "Margen derecha de la autopista Barcelona-Caracas, sector Los Mesones, galpón nro 4, Barcelona municipio Bolívar del estado Anzoátegui",
+    type: "Sede Regional Barcelona"
+  },
+  {
+    city: "Maracay",
+    address: "Calle Vargas y Pérez Almarza, Edificio Ariston Piso 7, oficina 25-6 sector Centro Maracay y Aragua, zona postal 2104",
+    type: "Sede Regional Maracay"
+  }
 ];
 
 const OfficeLocations = () => {

@@ -97,6 +97,12 @@ export default function Home() {
       title: "Kiwa",
       text: "Kiwa es una empresa internacional especializada en pruebas, inspección y certificación, que ayuda a las organizaciones a garantizar la calidad, seguridad y cumplimiento normativo de sus productos y procesos.",
       bottomImageUrl: "/brand-12.jpg",
+    },
+    {
+      id: 13,
+      title: "Red Wing Shoes",
+      text: "Red Wing Shoes es una icónica marca estadounidense, fundada en 1905, mundialmente reconocida por fabricar botas de trabajo de alta durabilidad. Son valoradas por su construcción artesanal, el uso de pieles de primera calidad y su diseño clásico que ha trascendido el ámbito industrial para convertirse en un referente de estilo urbano.",
+      bottomImageUrl: "/brand-13.png",
     }
   ];
 
