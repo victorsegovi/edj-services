@@ -86,6 +86,18 @@ export default function Home() {
       text: "Proveedor especializado en químicos industriales para el tratamiento de fluidos, control de corrosión y optimización de procesos en la industria petrolera e industrial.",
       bottomImageUrl: "/brand-10.png",
     },
+    {
+      id: 11,
+      title: "Skyebase",
+      text: "Skyebase es una empresa tecnológica que combina drones, robótica e inteligencia artificial para realizar inspecciones industriales y optimizar el mantenimiento de activos mediante análisis avanzados de datos.",
+      bottomImageUrl: "/brand-11.png",
+    },
+    {
+      id: 12,
+      title: "Kiwa",
+      text: "Kiwa es una empresa internacional especializada en pruebas, inspección y certificación, que ayuda a las organizaciones a garantizar la calidad, seguridad y cumplimiento normativo de sus productos y procesos.",
+      bottomImageUrl: "/brand-12.jpg",
+    }
   ];
 
   return (
